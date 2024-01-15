@@ -1,0 +1,43 @@
+/* Universal styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&family=Work+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+  color: #131318;
+  font-weight: 800;
+}
+
+nav,
+header,
+main {
+  max-width: 1170x;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h3 {
+  color: #131318;
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 36px;
+}
+
+h5 {
+  font-size: 28px;
+}
+h6 {
+  font-size: 24px;
+}
+
+p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
