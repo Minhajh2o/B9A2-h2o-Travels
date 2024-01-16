@@ -7,6 +7,10 @@
 .sec5 .sec5-content {
   width: 518px;
 }
+.sec5 .sec5-content h3{
+margin: 0;
+}
+
 .sec5 .sec5-content button {
   margin-top: 32px;
 }

@@ -22,6 +22,10 @@
   align-items: center;
   text-align: center;
 }
+.sec2-content p{
+  width: 800px;
+  margin-bottom: 48px;
+}
 .sec2 .sec2-grid-containar {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -49,7 +53,7 @@
   text-align: center;
 }
 .sec3 .why-choose-us p {
-  width: 643px;
+  width: 800px;
   margin: 0 auto;
 }
 
