@@ -4,11 +4,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
- .title-logo {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
+
 
 nav ul {
   display: flex;
@@ -29,7 +25,6 @@ nav ul {
 
 nav ul #home {
   color: #ff5400;
-  font-size: 18px;
   font-weight: 700;
 }
 
