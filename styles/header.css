@@ -5,12 +5,16 @@ nav {
   align-items: center;
 }
 
-
 nav ul {
   display: flex;
   gap: 50px;
 }
 
+.title-logo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
 .title-logo img {
   width: 48px;
   height: 56.008px;
@@ -42,7 +46,6 @@ nav ul a:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-
 /* Header  */
 
 header {
@@ -61,9 +64,9 @@ header {
 }
 
 header p {
-color: #fff;
-width: 676px;
-text-align: center;
+  color: #fff;
+  width: 676px;
+  text-align: center;
 }
 
 .filter {
@@ -78,9 +81,10 @@ text-align: center;
   background-color: rgba(252, 250, 250, 0.318);
 }
 
-input[type="name"],
+input[type="text"],
 input[type="datetime-local"],
 select,
+input[type="email"],
 input[type="submit"] {
   width: 174px;
   height: 52px;
@@ -90,22 +94,23 @@ input[type="submit"] {
   background-color: #fff;
   font-size: 16px;
   font-weight: 400;
-  cursor: pointer;
 }
 
-input[type="name"]::placeholder,
+input[type="text"]::placeholder,
 input[type="datetime-local"]::placeholder,
-select::placeholder {
+select::placeholder,
+input[type="email"]::placeholder {
   color: rgba(19, 19, 24, 0.5);
 }
 
-input[type="submit"] {
+.filter input[type="submit"] {
   background-color: #ff5400;
   color: #fff;
+  cursor: pointer;
   transition: 0.2s;
 }
-input[type="submit"]:hover{
+input[type="submit"]:hover {
   background-color: #fff;
   color: #ff5400;
-  font-weight: 500px;
+  font-weight: 600;
 }
