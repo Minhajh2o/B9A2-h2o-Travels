@@ -6,10 +6,55 @@
   text-align: justify;
   margin: 100px auto;
 }
-.sec1 img{
-    width: 100%;
+.sec1 img {
+  width: 100%;
 }
-.sec1 button{
-    margin-top: 30px;
+.sec1 button {
+  margin-top: 30px;
 }
 
+/* Section 3 styles */
+.sec3 .why-choose-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.sec3 .why-choose-us p {
+  width: 643px;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  gri++++-
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.grid-items {
+  padding: 32px 55px 32px 32px;
+  border-radius: 16px;
+}
+
+#grid-item-1 {
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+#grid-item-2 {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+#grid-item-3 {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  position: relative;
+  left: 310px;
+}
+
+.grid-items img {
+  margin-bottom: 16px;
+}
