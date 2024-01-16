@@ -68,8 +68,10 @@ button:hover {
 }
 
 .image-container {
+  /* width: 100%; */
   position: relative;
 }
+
 .image-container figcaption {
   color: aquamarine;
   text-align: center;

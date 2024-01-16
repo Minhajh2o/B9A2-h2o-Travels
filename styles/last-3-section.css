@@ -15,7 +15,6 @@
 .sec6 {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   margin: 100px auto;
 }
 .sec6 .newsletter {
@@ -32,8 +31,8 @@
 }
 .sec6 .newsletter .input {
   display: flex;
-  gap: 16px;
   flex-direction: column;
+  gap: 16px;
 }
 
 .sec6 input[type="text"],

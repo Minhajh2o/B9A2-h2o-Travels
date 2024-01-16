@@ -20,14 +20,9 @@
     font-size: 20px;
   }
 
-  p {
+  p,li {
     font-size: 14px;
   }
-
-  nav ul a {
-    font-size: 14px;
-  }
-
   button {
     width: 130px;
     height: 45px;
@@ -42,6 +37,9 @@
   nav ul {
     flex-direction: column;
     gap: 5px;
+  }
+  nav ul a {
+    font-size: 14px;
   }
 
   .title-logo {
@@ -113,8 +111,45 @@
   }
 
   #grid-item-3 {
-    left: 0%;
+    left: 0;
   }
+
+  /* Section 5 styles */
+
+  .sec5 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    /* justify-content: space-between; */
+  }
+  .sec5 .sec5-content {
+    width: 335px;
+  }
+  .sec5 .sec5-content button {
+    margin-top: 24px;
+  }
+  
+/* Section 6 styles */
+.sec6 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 24px auto;
+}
+.sec6 .newsletter {
+  width: 335px;
+  height: 353px;
+}
+.sec6 .newsletter hr {
+  width: 288px;
+}
+
+.sec6 input[type="text"],
+.sec6 input[type="email"],
+.sec6 input[type="submit"] {
+  width: 288px;
+}
+
 
   /* Footer styles */
   footer {
@@ -130,7 +165,7 @@
     margin: 30px auto;
   }
 
-  hr {
+  footer hr {
     width: 335px;
   }
 }
