@@ -73,8 +73,9 @@ button:hover {
 }
 
 .image-container figcaption {
-  color: aquamarine;
+  color: #fff;
   text-align: center;
   position: relative;
   bottom: 50%;
+  z-index: 1;
 }
