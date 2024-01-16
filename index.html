@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Title -->
     <title>h2o Travels</title>
-
     <!-- Styles -->
     <link rel="stylesheet" href="styles/universal-styles.css" />
     <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link rel="stylesheet" href="styles/upper-4-section.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
   </head>
+
   <body>
+    <!-- Navigation Bar -->
     <nav>
       <div class="title-logo">
-        <img src="Images/Group 40071 (2).png" alt="Logo" />
-        <h4><span id="h2o">h2o</span> <span id="travels">Travels</span></h4>
+        <a href="#"><img src="Images/Group 40071 (2).png" alt="logo" /></a>
+        <a href="#">
+          <h4><span id="h2o">h2o</span> <span id="travels">Travels</span></h4>
+        </a>
       </div>
+
       <ul>
         <a id="home" href="#">Home</a>
         <a href="">Packages</a>
@@ -24,5 +31,98 @@
         <a href="">Contact</a>
       </ul>
     </nav>
+    <!-- Navigation Bar Finished -->
+    <!-- Header -->
+    <header>
+      <h1>Explore Your Travel</h1>
+      <p>
+        Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
+        adipiscing. In et odio enim ac quis sapien urna eu phasellus.
+      </p>
+      <div class="filter">
+        <input type="name" placeholder="Where go" />
+
+        <input type="datetime-local" name="datetime" id="datetime" />
+
+        <select id="destination" name="destination">
+          <option value="" disabled selected>Select Type</option>
+          <option value="paris">Paris, France</option>
+          <option value="tokyo">Tokyo, Japan</option>
+          <option value="rome">Rome, Italy</option>
+          <option value="new-york">New York, USA</option>
+          <option value="new-york">Ottawa, Canada</option>
+        </select>
+
+        <input type="submit" value="&#128269; Find Now" />
+      </div>
+    </header>
+    <!-- Header Finished -->
+    <!-- Main Body -->
+    <main>
+      <!-- Section 1 -->
+      <section class="sec1">
+        <div>
+          <h3>Our Popular Tours</h3>
+          <p>
+            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+            odio sit massa. Sodales dictumst nec nibh pellentesque.
+          </p>
+          <li>
+            Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam
+            odio neque diam. Sociis erat at .
+          </li>
+          <li>
+            Adipiscing ornare pellentesque mauris volutpat tortor vitae platea
+            porta lacus. Lectus suspendisse nullam.
+          </li>
+          <li>
+            Accumsan eget et turpis praesent lorem egestas enim elit bibendum.
+            Risus at in.
+          </li>
+          <p>
+            Amet consectetur. Vulputate commodo felis molestie risus ornare
+            nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+            Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus
+            semper tincidunt.
+          </p>
+          <button>Read More</button>
+        </div>
+        <img src="Images/Rectangle 4.png" alt="Mountains" />
+      </section>
+      <section class="sec2"></section>
+      <section class="sec3"></section>
+      <section class="sec4"></section>
+      <section class="sec5"></section>
+      <section class="sec6"></section>
+    </main>
+    <!-- Main Body Finished -->
+    <!-- Footer -->
+    <footer>
+      <div class="title-logo">
+        <img src="Images/Group 40071 (2).png" alt="logo" />
+        <h4><span id="h2o">h2o</span> <span id="travels">Travels</span></h4>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae
+        blandit orci potenti vulputate. Leo erat maecenas vitae elementum
+        ultricies nullam.
+      </p>
+      <div class="social-media-icons">
+        <a href="#">
+          <img src="Images/Facebook.png" alt="Facebook logo" /> 
+        </a>
+        <a href="#">
+          <img src="Images/Twitter.png" alt="Twitter logo" />
+        </a>
+        <a href="#">
+          <img src="Images/Linkedin.png" alt="Linkedin logo" />
+        </a>
+        <a href="#">
+          <img src="Images/Instagram.png" alt="Instagram logo" />
+        </a>
+      </div>
+      <hr />
+      <p>&copy; 2021 h2o Travels. All rights reserved.</p>
+    </footer>
   </body>
 </html>

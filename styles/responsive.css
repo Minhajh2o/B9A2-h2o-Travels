@@ -1,0 +1,75 @@
+@media (max-width: 600px) {
+  /* Universal styles */
+  nav,
+  header,
+  main {
+    max-width: 335px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h3,
+  h5 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  button {
+    width: 130px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  /* Nav bar styles */
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  /* Header styles */
+
+  header {
+    padding: 32px 24px;
+  }
+
+  header p {
+    width: 304px;
+  }
+
+  /* Filter */
+  .filter {
+    display: flex;
+    width: 287px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 20px;
+  }
+
+  input[type="name"],
+  input[type="datetime-local"],
+  select,
+  input[type="submit"] {
+    width: 255px;
+  }
+
+  /* Section 1 styles */
+  .sec1 {
+    flex-direction: column;
+  }
+}
