@@ -120,6 +120,18 @@
     grid-template-columns: repeat(1, 1fr);
   } */
 
+  /* my section */
+  #hidden-gems .section-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.section-content img{
+    width: 100%;
+}
+
   /* Section 3 styles */
 
   .sec3 .why-choose-us {
