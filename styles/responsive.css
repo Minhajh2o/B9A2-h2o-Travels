@@ -20,7 +20,8 @@
     font-size: 20px;
   }
 
-  p,li {
+  p,
+  li {
     font-size: 14px;
   }
   button {
@@ -63,6 +64,7 @@
     width: 304px;
   }
 
+
   /* Filter */
   .filter {
     display: flex;
@@ -92,26 +94,87 @@
     margin-top: 15px;
   }
 
+  /* Section 2 styles */
+.sec2  img{
+  width: 100%;
+ }
+  .sec2-content p {
+    width: 309px;
+    margin-bottom: 16px;
+  }
+  .sec2 .sec2-grid-containar {
+    display: block;
+    gap: 16px; 
+  }
+  /* .sec2-grid-items1,
+  .sec2-grid-items2,
+  .sec2-grid-items3 {
+    display: grid;
+    gap: 16px; 
+  }
+  .sec2-grid-items1,
+  .sec2-grid-items3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .sec2-grid-items2 {
+    grid-template-columns: repeat(1, 1fr);
+  } */
+
   /* Section 3 styles */
+
+  .sec3 .why-choose-us {
+    margin-top: 24px;
+  }
   .sec3 .why-choose-us p {
     width: 309px;
     margin: 0 auto;
   }
 
   .grid-container {
+    display: block;
+  }
+  /* .grid-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 16px;
     margin-top: 16px;
     margin-bottom: 24px;
   }
-
+  */
   .grid-items {
     padding: 32px;
-    border-radius: 16px;
   }
 
   #grid-item-3 {
-    left: 0;
+    margin: 0;
+    width: 335px;
+  } 
+
+  /* Section 4 styles */
+
+  .sec4 {
+    gap: 16px;
+  }
+  .deals-discount {
+    width: 309px;
+  }
+
+  .deals-card1, .deals-card2, .deals-card3 {
+    width: 303px;
+    height: 295px;
+    padding: 24px;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+  }
+
+  .time-people-place {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .book-now {
+    margin-top: 16px;
   }
 
   /* Section 5 styles */
@@ -128,30 +191,44 @@
   .sec5 .sec5-content button {
     margin-top: 24px;
   }
+  .sec5  img{
+    width: 100%;
+   }
+
+  /* Section 6 styles */
+  .sec6 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 24px auto;
+  }
+  .sec6 .newsletter {
+    width: 335px;
+    height: 353px;
+  }
+  .sec6 .newsletter hr {
+    width: 288px;
+  }
+
+  .sec6 input[type="text"],
+  .sec6 input[type="email"],
+  .sec6 input[type="submit"] {
+    width: 288px;
+  }
+
+  .sec6  img{
+    width: 100%;
+   }
+   .sec6 .discount {
+    width: 214.023px;
+    height: 79.268px;
+    transform: rotate(-19.628deg);
+  }
+  .sec6 .discount h5 {
+    font-size: 15.854px;  }
   
-/* Section 6 styles */
-.sec6 {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin: 24px auto;
-}
-.sec6 .newsletter {
-  width: 335px;
-  height: 353px;
-}
-.sec6 .newsletter hr {
-  width: 288px;
-}
-
-.sec6 input[type="text"],
-.sec6 input[type="email"],
-.sec6 input[type="submit"] {
-  width: 288px;
-}
-
-
   /* Footer styles */
+
   footer {
     /* width: 375px; */
     height: 309px;

@@ -51,6 +51,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin-top: 100px;
 }
 .sec3 .why-choose-us p {
   width: 800px;

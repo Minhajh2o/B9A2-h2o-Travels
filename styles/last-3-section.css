@@ -1,14 +1,64 @@
+/* Section 4 styles */
+
+.sec4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.deals-discount {
+  text-align: center;
+  width: 643px;
+}
+
+.deal-1,
+.deal-2,
+.deal-3 {
+  position: relative;
+}
+
+.deals-card1, .deals-card2, .deals-card3 {
+  width: 579px;
+  height: 389px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  padding: 30px 77px 50px 50px;
+  position: absolute;
+  bottom: 55px;
+  right: 56px;
+}
+
+.deals-card2{
+  left: 56px;
+}
+
+.time-people-place {
+  display: flex;
+  gap: 24px;
+}
+
+.price {
+  font-size: 20px;
+  color: #ff5400;
+}
+
+.book-now {
+  margin-top: 24px;
+}
+
 /* Section 5 styles */
 
 .sec5 {
   display: flex;
   justify-content: space-between;
+  margin-top: 100px;
 }
 .sec5 .sec5-content {
   width: 518px;
-}
-.sec5 .sec5-content h3{
-margin: 0;
 }
 
 .sec5 .sec5-content button {
@@ -62,8 +112,8 @@ margin: 0;
   border: 2px solid #ff5400;
   font-weight: 700;
 }
-.sec6 .discount-content{
-    position: relative;
+.sec6 .discount-content {
+  position: relative;
 }
 .sec6 .discount {
   border-radius: 16px;
